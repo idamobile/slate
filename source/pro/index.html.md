@@ -54,7 +54,6 @@ includes:
   - pro/CurrentAccountDTO
   - pro/DepositDTO
   - pro/DeviceInfoDTO
-  - pro/faq
   - pro/FeedDTO
   - pro/FeedEventDTO
   - pro/FilledFormDTO
@@ -68,6 +67,7 @@ includes:
   - pro/sysReq
   - pro/TemplateDTO
   - pro/TransactionDTO
+  - pro/faq
 
 search: true
 ---
