@@ -64,9 +64,9 @@ includes:
   - pro/MarkerDTO
   - pro/MultiCurrencyAccountsDTO
   - pro/PersonalNewsDTO
-  - pro/sysReq
   - pro/TemplateDTO
   - pro/TransactionDTO
+  - pro/sysReq
   - pro/faq
 
 search: true
