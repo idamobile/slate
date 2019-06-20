@@ -44,9 +44,10 @@ usedBonusPointsAmount | [AmountDTO](#amountdto) | 0..1 | сумма исполь
 creditPlans | [CreditPlanDTO](#creditplandto) | 0..1 | список платежей по кредиту
 creditPlansFormId | string | 0..1 | идентификатор соответствующей оформлению кредита заполненной формы возвращаемый на запрос [getPaymentForm](#getpaymentform)
 transactionCurrency | string | 0..1 | валюта операции
-merchant | [MerchantDTO](#merchantdto) | 0..1 | ???
-category | [CategoryDTO](#categorydto) | 0..1 | ???
-needLoadCreditPlans | bool | 0..1 | ???
+merchant | [MerchantDTO](#merchantdto) | 0..1 | продавец
+category | [CategoryDTO](#categorydto) | 0..1 | категория оплаченного товара
+needLoadCreditPlans | bool | 0..1 | необходимость в отдельной загрузке графика платежа(для функционала рассрочки)
+receiptUrl | string | 0..1 | URL для загрузки чека по операции
 
 ### TransactionStatus
 

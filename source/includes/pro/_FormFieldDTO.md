@@ -93,5 +93,12 @@ NUMERIC | int | чесло без дроби (например 13945824)
 DECIMAL | string | число с любой дробной частью (например 1382432.93342)
 DYNAMIC | string | поле при вводе 2х символов делает запрос [getDynamicFieldValues](#getdynamicfieldvalues) и в случае признака необходимости обновления текущей формы делает запрос [getCurrentForm](#getcurrentform)
 QRCODE_GENERATOR | string | поле сенерирует QR-коде из значения value
+STORED_FILE | base64 string | файл, хранимый в Resource Server
+SWITCH | bool | двухпозиционный переключатель (тумблер)
+RADIO_BUTTON | string | радио-кнопка, работающая по принципу COMBO_BOX
+TRACK_BAR | int | ползунок, позволяющий выбрать значение из диапазона minLimit и maxLimit
+CARD_VIEW | string | представление карты для отображения на форме
+PIN_CODE | string | компонент для ввода цифрового пин-кода
+LIST_BOX | string | открытый список, работающий по принципу COMBO_BOX
 
 <aside class="warning">PHOTO_CHECK - эксперементальный ключ для фотографирования дорожных чеков</aside>
