@@ -21,5 +21,5 @@ key | comment
 --- | ---:
 LOAN_PRODUCT | график погашения кредита
 DEPOSIT_PRODUCT | график начисления процентов по депозиту
-TRANSPORT_CARD | ???
-CREDIT_PLAN | ???
+TRANSPORT_CARD | транспортаня карта
+CREDIT_PLAN | рассрочка

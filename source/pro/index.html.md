@@ -41,6 +41,7 @@ includes:
   - pro/requestHashedPassword
   - pro/dataStructs
   - pro/AmountDTO
+  - pro/AnswerDTO
   - pro/BankClientDTO
   - pro/BeneficiaryCategoryDTO
   - pro/BeneficiaryDTO
@@ -48,6 +49,7 @@ includes:
   - pro/BonusPointsDTO
   - pro/CardAccountDTO
   - pro/CardDTO
+  - pro/CategoryDTO
   - pro/ComboBoxValueDTO
   - pro/CreditAccountDTO
   - pro/CreditPlanDTO
@@ -62,8 +64,12 @@ includes:
   - pro/LoanDTO
   - pro/LogoResource
   - pro/MarkerDTO
+  - pro/MerchantDTO
   - pro/MultiCurrencyAccountsDTO
+  - pro/PersonalNewsActionDTO
   - pro/PersonalNewsDTO
+  - pro/QuestionDTO
+  - pro/TagDTO
   - pro/TemplateDTO
   - pro/TransactionDTO
   - pro/sysReq
