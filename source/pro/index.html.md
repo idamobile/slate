@@ -19,16 +19,18 @@ includes:
   - pro/getAvailableContacts
   - pro/getBeneficiaryCategories
   - pro/getBills
-  - pro/getCurrentForm
   - pro/getClientInfo
+  - pro/getCurrentForm
   - pro/getDynamicFieldValues
   - pro/getEvents
   - pro/getNextForm
+  - pro/getNextQuestion
   - pro/getPaymentForm
   - pro/getPersonalNews
   - pro/getProducts
   - pro/getStandardForms
   - pro/getTemplates
+  - pro/getTransactionDetails
   - pro/getTransactionsByDateRange
   - pro/getTransactionsByFilter
   - pro/getVersion
