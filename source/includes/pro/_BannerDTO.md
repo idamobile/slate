@@ -9,4 +9,4 @@ text | string | 0..1 | текст
 target | string | 0..1 | ссылка для перехода по клику на баннер
 placement | string | 1..1 | место размещения
 imageURL | string | 0..1 | адрес изображения
-type | string | 0..1 | ???
+type | string | 0..1 | тип баннера

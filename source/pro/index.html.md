@@ -45,6 +45,7 @@ includes:
   - pro/AmountDTO
   - pro/AnswerDTO
   - pro/BankClientDTO
+  - pro/BannerDTO
   - pro/BeneficiaryCategoryDTO
   - pro/BeneficiaryDTO
   - pro/BillDTO
@@ -57,6 +58,7 @@ includes:
   - pro/CreditPlanDTO
   - pro/CurrentAccountDTO
   - pro/DepositDTO
+  - pro/DetailsSectionDTO
   - pro/DeviceInfoDTO
   - pro/FeedDTO
   - pro/FeedEventDTO

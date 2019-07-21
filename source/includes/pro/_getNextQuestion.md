@@ -14,4 +14,3 @@ result | string | 1..1 | результат операции {OK, ERROR}
 message | string | 1..1 | 
 **Exception:** | | |
 BankClientNotExistsException | string | 0..1 | клиент с запрошенным bankClientId не существует
-ReloginRequiredException | string | 0..1 | ???

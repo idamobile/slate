@@ -11,4 +11,3 @@ transactionId | string | 1..1 | идентификатор транзакции
 transaction | [TransactionDTO](#transactiondto) | 1..1 | 
 **Exception:** | | |
 BankClientNotExistsException | string | 0..1 | клиент с запрошенным bankClientId не существует
-ReloginRequiredException | string | 0..1 | ???

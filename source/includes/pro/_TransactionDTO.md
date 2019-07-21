@@ -48,6 +48,7 @@ merchant | [MerchantDTO](#merchantdto) | 0..1 | продавец
 category | [CategoryDTO](#categorydto) | 0..1 | категория оплаченного товара
 needLoadCreditPlans | bool | 0..1 | необходимость в отдельной загрузке графика платежа(для функционала рассрочки)
 receiptUrl | string | 0..1 | URL для загрузки чека по операции
+installmentStatus | string | 0..1 | статус рассрочки по транзакции
 
 ### TransactionStatus
 
