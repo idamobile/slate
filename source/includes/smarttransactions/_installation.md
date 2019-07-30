@@ -34,10 +34,10 @@ Servlet container | [Apache Tomcat 7](http://tomcat.apache.org/download-70.cgi)
 
 Следующие параметры приложения находятся в файле ``${TOMCAT_HOME}/conf/server.xml`` внутри тега GlobalNamingResources:
 ``
-<Resource name="jdbc/core"
-           url="jdbc:postgresql://localhost:5432/smt_core"
-           username="username"
-           password="password"
+    <Resource name="jdbc/core"
+            url="jdbc:postgresql://localhost:5432/smt_core"
+            username="username"
+            password="password"
             auth="Container" type="javax.sql.DataSource" driverClassName="org.postgresql.Driver"
             maxActive="20" maxIdle="10" maxWait="-1"/>``
     <Resource name="jdbc/merchants"
