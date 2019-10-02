@@ -52,7 +52,7 @@ Google Note: If your organization has a firewall that restricts the traffic to o
 <Environment name="apnsPassword" value="12345" type="java.lang.String"/>
 <Environment name="apnsIsProduction" value="false" type="java.lang.Boolean"/>
 
-<Environment name="gcmAuthKey" value="AIzaSyBHteyIBmbmn-QI_E59ebXMT8wSihlwApg" type="java.lang.String"/>
+<Environment name="gcmAuthKey" value="XXXXXXXXXXXXXXXXXXXXXXXXXXX" type="java.lang.String"/>
 
 <Environment name="dbUrl" value="jdbc:postgresql://localhost/pigeon" type="java.lang.String"/>
 <Environment name="dbUsername" value="test" type="java.lang.String"/>
