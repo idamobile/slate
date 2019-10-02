@@ -53,6 +53,8 @@ recipients | string | 1..1 | получатель сообщения
 timeout | int | 1..1 | время жизни сообщения в секундах
 pushContent | [pushContent](#pushcontent) | 1..1 | обязательная часть пуш сообщения
 pushDetails | [pushDetails](#pushdetails) | 0..1 | дополнительные детали запрашиваемые мобильным устройством по необходимости
+perishable | bool | 0..1 | признак только единственной попытки доставки сообщения до клиента
+priority | int | 0..1 | приоритет отправки
 **Response:** | | |
 status | [status](#status) | 1..1 | статус сервера по доставке
 errorMessage | string | 0..1 | описание возможной ошибки

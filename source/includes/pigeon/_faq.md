@@ -63,6 +63,8 @@ Google Note: If your organization has a firewall that restricts the traffic to o
 <Environment name="overrideSubscriptions" value="false" type="java.lang.Boolean"/>
 
 <Environment name="caseInsensitiveIds" value="false" type="java.lang.Boolean"/>
+
+<Environment name="deviceExpiredPeriodMillis" value="2592000000" type="java.lang.Long"/>
 ```
 
 Все настройки сервиса задаются через файл конфигурирования Apache Tomcat, который расположен по адресу ``$TOMCAT_HOME/conf/server.xml`` путём добавления в тэг <GlobalNamingResources> следующих параметров:
@@ -75,3 +77,4 @@ dbUrl | настройка соединения с СУБД
 sbiOutboundWebServiceURL | адрес банковской WSDL, отвечающей за приём уведомления о доставке нотификаций
 overrideSubscriptions | перегрузка подписок. При активации данного параметра при регистрации нового устройства, старые устройства данного бользователя будут отписываться от рассылки
 caseInsensitiveIds | регистро-независимость внешних идентификаторов пользователей
+deviceExpiredPeriodMillis | Удалять подключенные пользовательские подписки, на которые не было успешной доставки более N миллисекунд
