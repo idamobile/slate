@@ -48,6 +48,7 @@ sortOrder | int | 0..1 | порядок сортировки
 continueLabel | string | 0..1 | надпись на кнопке "Продолжить"
 autoContinueAfter | int | 0..1 | количество секунд, после которых будет нажата кнопка "Продолжить"
 continueAction | string | 0..1 |  действие, выполняемое по нажатии на кнопку "Продолжить" (SUBMIT - отправка данных на сервер, CLOSE - закрытие формы)
+extendedError | bool | 0..1 | выводить расширенную ошибку
 
 ### FormType
 key | comment
